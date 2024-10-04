@@ -1,0 +1,53 @@
+body
+{
+    font-family: Poppins;
+    font-weight: 300;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin: 0px;     
+}
+
+table
+{
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td
+{
+    padding: 15PX;
+    text-align: left;
+    border-bottom: 1px solid#add;
+}
+th
+{
+background-color: green;
+color: white;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+tr:hover
+{
+    background-color: azure;
+}
+
+td:last-child
+{
+    text-align: center;
+    color: dimgray;
+}
+.ex
+{
+    font-style: italic;
+    font-weight: 300;
+
+}
+ img{
+    height:20px
+ }
